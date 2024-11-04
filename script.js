@@ -25,3 +25,18 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+const form = document.querySelector('form');
+
+function sendEmail(){
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "username",
+        To: "them@website.com",
+        From: "ferreiradefreitasrenata@gmail.com",
+        Subject: "This is the subject",
+        Body: "And this is the body"
+    }).then(
+        message => alert(message)
+    );
+}

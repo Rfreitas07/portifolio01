@@ -207,15 +207,15 @@ transition: 0.3s ease-in-out;
 @keyframes words{
     0%,
     20%{
-        content: "Frontend Designer";
+        content: "Front-end Developer";
     }
     21%,
     40%{
-        content: "Frontend Developer";
+        content: "Web Developer";
     }
     41%,
     60%{
-        content: "UI / UX Designer";
+        content: "Front-end Developer";
     }
     61%,
     80%{
@@ -223,7 +223,7 @@ transition: 0.3s ease-in-out;
     }
         81%,
         100%{
-            content: "Software Tester";
+            content: "Front-end Developer";
         }
     }
 @keyframes typing{
