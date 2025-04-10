@@ -7,58 +7,68 @@
     <title>Renata Freitas</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-
+<!--cabeçalho-->
     <header class="header">
-        <a href="#home" class="logo">Renata <span>Freitas</span></a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#education">Higher Education</a>
-            <a href="#services">Experience</a>
-            <a href="#projects">Projetcs</a>
-            <a href="#contact">Contacts</a>
+            <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#education">PROFESSIONAL TRAINING</a>
+            <a href="#services">EXPERIENCES</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
 
         </nav>
     </header>
 
+    <!--Página inicial-->
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi, it's <span>Renata</span></h1>
-            <h3 class="text-animation">I'm a <span></span></h3>
-            <p> Sou uma Desenvolvedora Frontend apaixonada por criar experiências digitais envolventes e intuitivas. Com
-                conhecimento em tecnologias atuais, busco transformar idéias em interfaces atraentes e funcionais que
-                proporcionam uma navegação fluida e agradável. Aqui você encontrará uma seleção de projetos que refletem
-                meu compromisso com a qualidade, usabilidade e design, além de uma abordagem centrada no usuário. Estou
-                sempre em busca de novos desafios e oportunidades para aprender e crescer na área de desenvolvimento.
-                Sinta-se à vontade para explorar meu trabalho e entrar em contato!</p>
+            
+            <div class="home-img">
+                <img src="./images/fotocapa.png" alt="foto de perfil">
+            </div>
+            
+            <h1><span>Renata</span>Freitas</h1>
+            
+            <p> Gosto de experimentar o universo digital para além de cada linha de código. Para mim, a experiência 
+                do usuário é a bússola que guia minha jornada como desenvolvedora frontend. Com paixão por 
+                transformar ideias em interfaces web intuitivas e visualmente cativantes, meu portfólio é um 
+                convite para explorar projetos que unem a arte do design com a precisão da programação. 
+                Prepare-se para descobrir soluções criativas e eficientes, construídas para encantar e engajar 
+                seus usuários. Explore e descubra como juntos podemos transformar sua visão em uma experiência 
+                online inesquecível!</p>
 
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/renata-ferreira-de-freitas-a84ab288/"><i
+                <a href="https://www.linkedin.com/in/renata-ferreira-de-freitas-a84ab288/" target="_blank"><i
                         class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/Rfreitas07"><i class="bx bxl-github"></i></a>
-                <a href="https://www.instagram.com/renatafdfreitas/"><i class="bx bxl-instagram"></i></a>
-                <a href="https://web.whatsapp.com/"><i class=" bx bxl-whatsapp"></i></a>
+                <a href="https://github.com/Rfreitas07"><i class="bx bxl-github" target="_blank"></i></a>
+                <a href="https://web.whatsapp.com/"><i class=" bx bxl-whatsapp" target="_blank"></i></a>
             </div>
             <div class="btn-group">
-                <a href="contact" class="btn">Hire</a>
-                <a href="contact" class="btn">Contact</a>
+
+                <a href="#contact" class="btn">Contact</a>
             </div>
         </div>
-        <div class="home-img">
-            <img src="./images/dupla.jpg" alt="">
-        </div>
+        
     </section>
 
+
+<!--Formação-->
+
     <section class="education" id="education">
-        <h2 class="heading">Higher Education</h2>
+        <h2 class="heading">PROFESSIONAL TRAINING</h2>
 
         <div class="timeline-items">
+
+
+ <!--faseh-->
 
             <div class="timeline-item">
 
@@ -67,12 +77,19 @@
                 <div class="timeline-date">2010</div>
 
                 <div class="timeline-content">
-                    <h3>Graduação</h3>
-                    <p>Formação no curso de Enfermagem pela FASEH - Faculdade de Saúde e Ecologia Humana. Formação
-                        concluída no ano de 2010, modalidade presencial.</p>
+                    <img id="logoFaseh" src="/images/logoColoridaFaseh.svg" alt="logo da faculdade faseh">
+                    
+                    <p>
+                        <strong>Graduação</strong><br>
+                        Bacharelado em Enfermagem pela FASEH - Faculdade de Saúde e Ecologia Humana. 
+                        Conclusão 2010, modalidade presencial.
+                    </p>
                 </div>
 
             </div>
+
+
+ <!--Unopar-->
 
             <div class="timeline-item">
 
@@ -80,14 +97,16 @@
 
                 <div class="timeline-date">2024</div>
 
-                <div class="timeline-content">
-                    <h3>graduação </h3>
-                    <p>Formação no curso de Ciência da Computação, Faculdade Unopar/Anhanguera. Formação em andamento
-                        com previsão de conclusão no ano de 2026, modalidade EAD.</p>
+                <div class="timeline-content">                  
+                    <img id="logoUnopar" src="/images/unopar_8f493bde5b.png" alt="logo da unopar">
+                    <p>
+                        <strong>Graduação</strong><br>
+                        Bacharelado em Ciência da Computação, Unopar/Anhanguera. Formação em andamento
+                        com previsão de conclusão dezembro de 2026, modalidade EAD.</p>
                 </div>
             </div>
 
-
+<!--Alura-->
             <div class="timeline-item">
 
                 <div class="timeline-dot"></div>
@@ -95,111 +114,129 @@
                 <div class="timeline-date">2024</div>
 
                 <div class="timeline-content">
-                    <h3>Cursos Técnicos</h3>
-                    <p>Conclusão de + 140 horas de cursos e formações na plataforma AOVS Sistemas de Informática S.A -
-                        ALURA. Dentre elas se destacam:
-                        Node.js: criando uma API Rest com Express e MongoDB,
-                        JavaScript: manipulando elementos no DOM,
-                        HTML e CSS: Classes, posicionamento e Flexbox,
-                        Next.js: conheça o framework React,
-                        JavaScript: consumindo e tratando dados de uma API, entre outros. </p>
+                    <img id="logoAlura" src="/images/logoAlura1.svg" alt="logo da alura">
+                    <p>
+                        <strong>Formação Complementar</strong><br>
+                        Assinatura da plataforma Alura somando até o momento 125 horas de cursos 
+                        para a formação de Desenvolvimento Web, Programação Frontend, Programação Full Stack.
+                         </p>
                 </div>
             </div>
-
+ <!--Aprimoramentos-->
             <div class="timeline-item">
 
                 <div class="timeline-dot"></div>
 
-                <div class="timeline-date">2024</div>
+                <div class="timeline-date">2025</div>
 
                 <div class="timeline-content">
-                    <h3>Cursos Técnicos</h3>
-                    <p>Conclusão de + 30 horas de cursos e formações na plataforma Curso em DEV: Cursos em vídeo-aulas
-                        criados pelo Professor Gustavo Guanabara. Dentre eles se destacam: HTML 5, CSS 3, Curso de
-                        Inglês para Iniciantes.
+                   <div class="imgs-cursos"> <img id="logoHoradeCodar" src="/images/logoHoradecodar.png" alt="logo hora de codar">
+                    <img id="logoCursoemVideo" src="/images/cursoemvideo-logo-branca-300x91.png" alt="logo curso em video">
+                    <img id="logoPauloBorges" src="/images/pauloBorges.png" alt="logo paulo borges">
+                </div>
+                    <p>
+                        <strong>Aprimoramentos</strong><br>
+                        + de 150 horas de cursos complementares que aprimoram minha formação no Desenvolvimento Web.
+                        Inúmeras escolas e personalidades do mundo Teck fazem parte desta trajetória.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
+
+<!--Experiências-->
+
     <section class="services" id="services">
-        <h2 class="heading">Experiences</h2>
+        <h2 class="heading">EXPERIENCES</h2>
 
         <div class="services-container">
             <div class="services-box">
+                
+                <img src="images/costdrive.jpg" alt="arte">
                 <div class="service-info">
-                    <h4>Frontend Developer</h4>
-                    <p> <span>GEP COSTDRIVERS - 6 meses - 2024<br></span> Durante meu estágio como desenvolvedora
-                        frontend, pude mergulhar em uma experiência desafiadora, onde aprendi a transformar as teorias
-                        aprendidas em práticas. A colaboração com a equipe estimulou minha criatividade e expandiu meu
-                        conhecimento em tecnologias modernas. Durante minha experiência com desenvolvimento frontend,
+                    <img src="images/partners-costdrive.png" alt="">
+                    <p> <span>6 meses - 2024<br></span> Estágio no Desenvolvimento
+                        Frontend. Foi onde aprendi a transformar as teorias
+                        aprendidas em práticas. A colaboração com a equipe estimulou minha criatividade e expandiu meus
+                        conhecimentos em tecnologias modernas. Durante minha experiência de estágio no desenvolvimento Frontend,
                         tive a oportunidade de trabalhar ao lado de profissionais experientes que me estimularam a
-                        buscar cada vez mais o aprimoramento e dedicação. Uma variedade de tarefas práticas me
-                        permitiram aperfeiçoar minhas práticas e acrescentou conhecimentos em tecnologias de uso
-                        corporativo. Isso me deu uma compreensão mais profunda sobre quão importante e diverso é o mundo
+                        buscar cada vez mais o aprimoramento e dedicação. Uma variedade de tarefas práticas, baseadas na metodologia Ágil SCRUM me
+                        deu uma compreensão mais profunda sobre quão importante e diverso é o mundo
                         que nos conecta. <br>
-                        “Seu trabalho é descobrir o que você ama fazer. E então, fazer isso.” ("Steve Jobs")
+    
 
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    
+<!--Projetos-->
 
     <section class="projects" id="projects">
         <div class="projects-box">
-            <h2 class="heading">Projetcs</h2>
+            <h2 class="heading">PROJECTS</h2>
             <div class="wrapper">
 
-
-
+<!--Projeto Country List-->
 
                 <div class="projects-item">
                     <img src="images/projeto1.jpg" alt="">
                     
                     <div class="rating">
                         
-                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/">
+                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/" target="_blank">
                              <i class='bx bxs-up-arrow'>  Country-list - Deploy</i>
                         </a>
                 
-                        <a href="https://github.com/Rfreitas07/Country-list">
+                        <a href="https://github.com/Rfreitas07/Country-list" target="_blank">
                              <i class='bx bxl-github'>  Country-list - Code</i>
                         </a>
 
                     </div>
 
-                    <p>Este projeto tem como objetivo principal a exploração de países ao redor do mundo, fornecendo informações detalhadas sobre cada um deles. Ele foi desenvolvido com a finalidade de estudar e consolidar conhecimentos nas tecnologias utilizadas, servindo como um projeto prático para aplicar os conceitos aprendidos. Next-JS, Javascript, HTML, CSS, Tailwind.</p>
+                    <p>Este projeto apresenta a possibilidade de exploração de países ao redor do mundo, 
+                        fornecendo informações detalhadas sobre cada um deles. Ele foi desenvolvido com a 
+                        finalidade de aprimorar conhecimentos nas tecnologias utilizadas, servindo 
+                        como um projeto prático para aplicar os conceitos aprendidos. Next-JS, Javascript, 
+                        HTML, CSS, Tailwind.</p>
                 </div>
 
 
-
+<!--Projeto Space Invasion-->
 
                 <div class="projects-item">
                     <img src="images/SpaceInvasion.png" alt="Space Invasion Game">
                     
                     <div class="rating">
                                       
-                        <a href="https://github.com/Rfreitas07/SpaceInvasion">
+                        <a href="https://github.com/Rfreitas07/SpaceInvasion" target="_blank">
                              <i class='bx bxl-github'>  Space Invasion Game - Code</i>
                         </a>
 
                     </div>
 
-                    <p>Este projeto de jogo foi desenvolvido como parte de um portfólio pessoal, demonstrando habilidades na criação de jogos com Python e a biblioteca Pygame Zero. Utilizando o PyCharm como IDE e o Anaconda como ambiente virtual para gerenciamento de dependências, o projeto busca explorar conceitos fundamentais de programação de jogos, como lógica de entrega, integração, interface e interatividade com o usuário. A escolha do Pygame Zero permite a criação de jogos 2D com uma sintaxe simplificada, ideal para projetos ágeis e protótipos.</p>
+                    <p>Este projeto de jogo foi desenvolvido como parte de um portfólio pessoal, 
+                        demonstrando habilidades na criação de jogos com Python e a biblioteca Pygame Zero. 
+                        Utilizando o PyCharm como IDE e o Anaconda como ambiente virtual para gerenciamento de 
+                        dependências, o projeto busca explorar conceitos fundamentais de programação de jogos, 
+                        como lógica de entrega, integração, interface e interatividade com o usuário.</p>
                 </div>
+
+
+<!--Projeto 3-->
 
                 <div class="projects-item">
                     <img src="images/projeto1.jpg" alt="">
                     
                     <div class="rating">
                         
-                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/">
+                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/" target="_blank">
                              <i class='bx bxs-up-arrow'>  Country-list - Deploy</i>
                         </a>
                 
-                        <a href="https://github.com/Rfreitas07/Country-list">
+                        <a href="https://github.com/Rfreitas07/Country-list" target="_blank">
                              <i class='bx bxl-github'>  Country-list - Code</i>
                         </a>
 
@@ -207,35 +244,19 @@
 
                     <p>Este projeto tem como objetivo principal a exploração de países ao redor do mundo, fornecendo informações detalhadas sobre cada um deles. Ele foi desenvolvido com a finalidade de estudar e consolidar conhecimentos nas tecnologias utilizadas, servindo como um projeto prático para aplicar os conceitos aprendidos. Next-JS, Javascript, HTML, CSS, Tailwind.</p>
                 </div>
+
+<!--Projeto 4-->
 
                 <div class="projects-item">
                     <img src="images/projeto1.jpg" alt="">
                     
                     <div class="rating">
                         
-                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/">
+                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/" target="_blank">
                              <i class='bx bxs-up-arrow'>  Country-list - Deploy</i>
                         </a>
                 
-                        <a href="https://github.com/Rfreitas07/Country-list">
-                             <i class='bx bxl-github'>  Country-list - Code</i>
-                        </a>
-
-                    </div>
-
-                    <p>Este projeto tem como objetivo principal a exploração de países ao redor do mundo, fornecendo informações detalhadas sobre cada um deles. Ele foi desenvolvido com a finalidade de estudar e consolidar conhecimentos nas tecnologias utilizadas, servindo como um projeto prático para aplicar os conceitos aprendidos. Next-JS, Javascript, HTML, CSS, Tailwind.</p>
-                </div>
-
-                 <div class="projects-item">
-                    <img src="images/projeto1.jpg" alt="">
-                    
-                    <div class="rating">
-                        
-                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/">
-                             <i class='bx bxs-up-arrow'>  Country-list - Deploy</i>
-                        </a>
-                
-                        <a href="https://github.com/Rfreitas07/Country-list">
+                        <a href="https://github.com/Rfreitas07/Country-list" target="_blank">
                              <i class='bx bxl-github'>  Country-list - Code</i>
                         </a>
 
@@ -245,16 +266,38 @@
                 </div>
 
 
+<!--Projeto 5-->
+
                  <div class="projects-item">
                     <img src="images/projeto1.jpg" alt="">
                     
                     <div class="rating">
                         
-                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/">
+                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/" target="_blank">
                              <i class='bx bxs-up-arrow'>  Country-list - Deploy</i>
                         </a>
                 
-                        <a href="https://github.com/Rfreitas07/Country-list">
+                        <a href="https://github.com/Rfreitas07/Country-list" target="_blank">
+                             <i class='bx bxl-github'>  Country-list - Code</i>
+                        </a>
+
+                    </div>
+
+                    <p>Este projeto tem como objetivo principal a exploração de países ao redor do mundo, fornecendo informações detalhadas sobre cada um deles. Ele foi desenvolvido com a finalidade de estudar e consolidar conhecimentos nas tecnologias utilizadas, servindo como um projeto prático para aplicar os conceitos aprendidos. Next-JS, Javascript, HTML, CSS, Tailwind.</p>
+                </div>
+
+                <!--Projeto 6-->
+
+                 <div class="projects-item">
+                    <img src="images/projeto1.jpg" alt="">
+                    
+                    <div class="rating">
+                        
+                        <a href="https://country-list-git-master-rfreitas07s-projects.vercel.app/" target="_blank">
+                             <i class='bx bxs-up-arrow'>  Country-list - Deploy</i>
+                        </a>
+                
+                        <a href="https://github.com/Rfreitas07/Country-list" target="_blank">
                              <i class='bx bxl-github'>  Country-list - Code</i>
                         </a>
 
@@ -264,9 +307,12 @@
                 </div>
                 
     </section>
+
+<!--Contatos-->
+
     <section class="contact" id="contact">
 
-        <h2 class="heading">Contact <span>Me</span></h2>
+        <h2 class="heading">CONTACT <span>ME</span></h2>
 
 
                 <form action="https://formsubmit.co/ferreiradefreitasrenata@gmail.com" method="POST">
@@ -295,17 +341,18 @@
 
         </form>
 
+<!--Rodapé-->
+
         <footer class="footer">
             <div class="social">
-                <a href="https://www.linkedin.com/in/renata-ferreira-de-freitas-a84ab288/"><i
+                <a href="https://www.linkedin.com/in/renata-ferreira-de-freitas-a84ab288/" target="_blank"><i
                         class="bx bxl-linkedin"></i></a>
-                <a href="https://github.com/Rfreitas07"><i class="bx bxl-github"></i></a>
-                <a href="https://www.instagram.com/renatafdfreitas/"><i class="bx bxl-instagram"></i></a>
-                <a href="https://web.whatsapp.com/"><i class=" bx bxl-whatsapp"></i></a>
+                <a href="https://github.com/Rfreitas07" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class=" bx bxl-whatsapp"></i></a>
             </div>
 
 
-            <p class="copyright"><i class='bx bx-copyright'> - Renata Freitas | All Rights Reserved </i></p>
+            <p class="copyright"><i class='bx bx-copyright'> - Produced by <span>Renata Freitas</span> | All Rights Reserved - 2025</i></p>
 
         </footer>
 
