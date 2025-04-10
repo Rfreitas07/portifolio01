@@ -80,6 +80,7 @@ section {
 
 .home {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 15rem;
@@ -198,6 +199,45 @@ transition: 0.3s ease-in-out;
     text-align: center;
     margin: 5rem 0;
 }
+
+/*carrossel*/
+
+main{
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+}
+.carrossel{
+  width: 100%;
+  height: 50%;
+}
+.slides{
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.slide{
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  right: 100%;
+  animation: autoRun 15s linear infinite;
+  animation-delay: var(--deley);
+   /* Para iniciar automaticamente */
+}
+.slide img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+  
+
+@keyframes autoRun {
+  from { left: 100%; }
+  to { left: -50px; }
+}
+
 /*formação*/
 
 .education{
